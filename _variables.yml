@@ -1,0 +1,7 @@
+rap_jaar: 2022
+grijs: "#616161"
+oranje: "#C25100"
+blauw: "#0079C2"
+down-oranje: '<span style="float:left; clear:left; margin-bottom:1px; color:#C25100;"><i class="fa-solid fa-circle-down" aria-label="circle-down"></i>&nbsp;&nbsp;</span>'
+info-grijs: '<span style="float:left; clear:left; margin-bottom:1px; color:#616161;"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i>&nbsp;&nbsp;</span>'
+

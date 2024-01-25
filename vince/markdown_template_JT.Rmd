@@ -1,0 +1,78 @@
+---
+title: "Rapportage"
+#author: "Johan van Tent"
+#date: "**Gemaakt op:** `r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    css: CSS/markdown_JT.css
+    #toc: TRUE
+    toc_float:
+      collapsed: FALSE
+    code_folding: "hide"
+    includes:
+      #before_body: "html/header_hhsk.html"
+      # after_body: "html/footer_hhsk.html"
+
+  
+---
+
+<style type="text/css">
+.tekst_midden {
+  vertical-align: middle;
+}
+</style>
+
+```{r include=FALSE}
+library(fontawesome)
+```
+
+
+**Gemaakt op:** `r format(Sys.time(), "%A %e %B %Y")`
+
+
+# Hoofdstuk 1
+
+- Het gaat goed ![](vince_happy_grey.svg){width=60} 
+
+- Het gaat minder goed ![](vince_neutral_grey.svg){width=80} 
+
+- Het verbetert, en is goed ![](vince_happy_up_grey.svg){width=80}  
+
+## Paragraaf 1
+
+![](vince_basic_grey.svg){width=50} Gewoon wat info
+
+![](vince_happy_grey.svg){width=50} Het gaat goed
+
+![](vince_neutral_grey.svg){width=50}  Het gaat minder goed 
+
+
+![](vince_sad_grey.svg){width=50} Het gaat niet goed
+
+
+
+# H2
+
+check circle-check
+
+xmark circle-xmark
+plus plus-minus square-minus
+minus square-minus
+circle-plus circle-minus
+circle-left
+
+"fa-regular fa-circle-plus"
+
+## par 2
+
+<div class = tekst_midden>
+`r fa("circle-check", fill = HHSKwkl::blauw, height = "2em")` En nog meer tekst
+
+`r fa("circle-xmark", fill = HHSKwkl::oranje, height = "2em")` En meer tekst
+
+`r fa("circle-plus", prefer_type = "regular")` En meer tekst
+
+
+`r fa("square-minus")` En meer tekst
+
+<div>
