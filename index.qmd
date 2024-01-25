@@ -1,0 +1,48 @@
+---
+params: 
+  rap_jaar: 2023
+lightbox: false
+# abstract-title: "Introductie"
+# abstract: "TESt"
+---
+
+![](images/vier_watergangen_jdr.jpg)
+
+# Samenvatting {#samenvatting .unnumbered}
+
+Hoe is de waterkwaliteit in het gebied van het waterschap? Dat is een vraag met veel mogelijke antwoorden. De waterkwaliteit heeft te maken met de planten en dieren die in het water leven. Maar het heeft ook te maken met de chemische stoffen in het water. Sommige van die stoffen komen van nature voor in het water en andere juist niet. Of de waterkwaliteit goed is heeft ook te maken met waar het water voor gebruikt wordt (bijv. zwemmen) en welke doelen voor het water zijn bepaald.
+
+De waterkwaliteit in het gebied van het hoogheemraadschap van Schieland en de Krimpenerwaard wordt voortdurend onderzocht. Op basis van dat onderzoek maakt het waterschap jaarlijks deze rapportage over de waterkwaliteit. De rapportage beschrijft de toestand van de waterkwaliteit en in welke mate waterkwaliteitsdoelen worden bereikt. De rapportage is bedoeld voor burgers, bedrijven en bestuurders.
+
+*Actuele toestand en doelen*\
+Waterplanten hebben een sleutelrol voor het onderwaterleven. In [hoofdstuk 1](#toestand) is te lezen dat er in de Krimpenerwaard steeds minder wateren met onderwaterplanten zijn.
+
+Het waterschap werkt, samen met andere partijen, aan de verbetering van de waterkwaliteit om ecologische doelen te bereiken. In [hoofdstuk 2](#krw) is te lezen in hoeverre de doelen voor de KRW-waterlichamen worden bereikt. De boezems en plassen voldoen grotendeels al aan de doelen. In de waterlichamen die bestaan uit sloten en kanalen is vooral nog verbetering nodig voor de waterplanten en de kleine waterbeestjes. In hoeverre de doelen in andere wateren worden bereikt is te lezen in [hoofdstuk 3](#overig).
+
+*Zwemmen*\
+Zwemmen is een belangrijke recreatieve functie van het water. In [hoofdstuk 4](#zwemwater) is te lezen over de kwaliteit van het zwemwater. De zwemwaterkwaliteit is op de meeste officiële zwemlocaties behoorlijk goed.
+
+*Stoffen in het water*\
+Voedingsstoffen of nutriënten bepalen hoe snel waterplanten, kroos en algen kunnen groeien. Vaak zorgen teveel voedingsstoffen voor een slechte waterkwaliteit. In [hoofdstuk 5](#nutrienten) is te lezen dat er vooral in het glastuinbouwgebied erg veel voedingsstoffen in het water aanwezig zijn.
+
+Gewasbeschermingsmiddelen of bestrijdingsmiddelen worden in de landbouw gebruikt om gewassen te beschermen tegen ziektes en insecten. Deze stoffen kunnen schadelijk zijn voor het onderwaterleven. In [hoofdstuk 6](#gbm) is te lezen dat er veel (67) gewasbeschermingsmiddelen in het water aanwezig zijn en dat 13 van deze stoffen de norm overschrijden. Met name in het glastuinbouwgebied zorgen deze stoffen voor schade aan het onderwaterleven.
+
+*Exoten*\
+Exoten (uitheemse planten en dieren) zijn een bedreiging voor het onderwaterleven en een goede waterkwaliteit. In [hoofdstuk 7](#exoten) worden twee relevante groepen exoten in beeld gebracht: Amerikaanse rivierkreeften en invasieve waterplanten. De Amerikaanse rivierkreeften zijn een wijdverspreid probleem. Invasieve waterplanten worden goed onder controle gehouden en komen daardoor maar sporadisch voor.
+
+*En verder*\
+Er is veel meer informatie over waterkwaliteit dan in deze rapportage opgenomen kan worden. In [hoofdstuk 8](#meer_info) zijn een aantal verwijzingen opgenomen naar meer gegevens en informatie over waterkwaliteit.
+
+Sommige figuren uit eerdere rapportages zijn te vinden in [Bijlage A](#oud).
+
+Deze rapportage is voor een belangrijk deel automatisch opgebouwd uit data en computercode. De data en code zijn beschikbaar in [bijlage B](#code).
+
+In de [Leeswijzer](#leeswijzer) wordt meer uitleg gegeven over hoe je deze rapportage kunt gebruiken.
+
+<br>
+
+Vragen over deze rapportage kunt u sturen naar rapportage_waterkwaliteit\@hhsk.nl
+
+<br>
+
+![*Tekeningen: Jasper de Ruiter, Tringa paintings*](images/zomer_veenweide_full_colour_800px.jpg)

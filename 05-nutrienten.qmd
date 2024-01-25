@@ -1,0 +1,99 @@
+---
+lightbox: auto
+---
+
+# Fosfaat en stikstof {#nutrienten}
+
+::: samenvatting
+|                                  |                                                                                                                        |
+|---|-------------------------------------------------|
+| [{{< fa circle-down >}}]{.blauw} | De hoeveelheid fosfaat en stikstof in het glastuinbouwgebied was in 2023 lager dan in voorgaande jaren.                |
+| [{{< fa star >}}]{.blauw}        | In de grote plassen zijn de nutriëntenconcentraties het laagst.                                                        |
+| [{{< fa circle-down >}}]{.blauw} | De hoeveelheid fosfaat neemt langzaam af in gebieden met grasland, stedelijk gebied, de boezems en in de glastuinbouw. |
+| [{{< fa circle-down >}}]{.grijs} | De hoeveelheid stikstof neemt alleen in de boezems een klein beetje af.                                                |
+
+::: aside
+![](images%5Cvince_positive2.svg){.nolightbox fig-align="center" width="200"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: code-nutrienten
+#| file: "R/CODE_nutrienten.R"
+#| include: false
+#| cache: false
+```
+
+### Introductie {.unnumbered}
+
+Fosfaat en stikstof zijn voedingsstoffen die planten en algen nodig hebben om te groeien. Vaak leidt te veel fosfaat en stikstof in het water tot waterkwaliteitsproblemen. Teveel fosfaat en stikstof is in het voordeel van een paar soorten snelgroeiende planten en algen. Dat leidt tot een eenzijdig ecosysteem; en ook tot overlast door algen en kroos. Het waterschap werkt aan een beperking van de hoeveelheid fosfaat en stikstof in het water.[^05-nutrienten-1] De doelen voor fosfaat en stikstof zijn afhankelijk van het watertype en zijn daarom niet overal hetzelfde.[^05-nutrienten-2] De concentraties van fosfaat en stikstof zijn op veel plaatsen nog te hoog.
+
+[^05-nutrienten-1]: Hoewel fosfaat en stikstof essentieel zijn, komt het in de praktijk niet voor dat er te weinig fosfaat en stikstof in het water zitten.
+
+[^05-nutrienten-2]: De doelstelling voor fosfaat ligt meestal tussen 0,16 en 0,30 mg P/l. De doelstelling voor stikstof ligt meestal tussen 2,6 en 4,1 mg N/l/
+
+### Fosfaat en stikstof per type landgebruik {.unnumbered}
+
+De hoeveelheid fosfaat en stikstof heeft een sterke relatie met het landgebruik. In de onderstaande grafiek (@fig-nutrienten-plot) is de gemiddelde nutriëntenconcentratie in `r rap_jaar` weergegeven per type landgebruik.[^05-nutrienten-3]
+
+[^05-nutrienten-3]: Voor het type landgebruik zijn alleen de meest voorkomende typen opgenomen. Het type gras betreft zowel het veenweidegebied in de Krimpenerwaard als het veenweidegebied in Schieland. Onder het type boezem vallen de Rotte, de Ringvaart en de Vaart Bleiswijk.
+
+In de gebieden die voor landbouw gebruikt worden is de meeste fosfaat en stikstof aanwezig. Van de landbouwgebieden heeft het glastuinbouwgebied de grootste hoeveelheid fosfaat en stikstof. Het verschil tussen het glastuinbouwgebied en de andere gebieden was in 2023 echter veel kleiner dan in voorgaande jaren.
+
+De grote plassen hebben de laagste nutriëntenconcentraties. Dit komt doordat het waterschap deze plassen zoveel mogelijk beschermt tegen bronnen van fosfaat en stikstof.
+
+```{r}
+#| label: fig-nutrienten-plot
+#| fig-cap: !expr 'glue("Gemiddelde nutriëntenconcentraties per type landgebruik in {rap_jaar}.")'
+#| fig-height: 4
+#| dpi: 150
+#| out.width: "100%"
+#| lightbox:
+#|   group: nutrienten
+nutrienten_plot
+```
+
+### Trends in fosfaat en stikstof {.unnumbered}
+
+De verandering in de concentratie fosfaat en stikstof gaat relatief langzaam. In niet-agrarische gebieden zijn de jaarlijkse veranderingen relatief klein. Bij agrarisch landgebruik zijn er van jaar tot jaar vrij grote schommelingen. In deze gebieden worden de concentraties sterker bepaald door factoren die jaarlijks kunnen verschillen: weersomstandigheden, lozingen en bemesting.
+
+De ontwikkeling van fosfaat en stikstof in de tijd is te zien in @fig-fosfor-plot en @fig-stikstof-plot. Voor elk type landgebruik is er ook bepaald of er sprake is van een trend.[^05-nutrienten-4]
+
+[^05-nutrienten-4]: De trend is bepaald met een Mann-Kendall trendtest. De test is uitgevoerd op de gemiddelde concentraties van de laatste 10 jaar. Als de p-waarde kleiner is dan 0,05 dan is het aannemelijk dat er sprake is van een echte trend. Als er sprake is van een significante trend dan is de afname bepaald met de Theil-Sen hellingschatter.
+
+De hoeveelheid fosfaat neemt af in gebieden met grasland, stedelijk gebied, de boezems en het glastuinbouwgebied.[^05-nutrienten-5] De hoeveelheid stikstof neemt af in de boezems.[^05-nutrienten-6] In de andere gebieden is er geen dalende trend. De relatieve afname van de hoeveelheid stikstof is veel kleiner dan de afname van fosfaat.
+
+[^05-nutrienten-5]: grasland: -0,21 mg P/l per 10 jaar (19%) <br>stedelijk gebied: -0,10 mg P/l per 10 jaar (15%)<br>boezem -0,06 mg P/l per 10 jaar (14%)<br>glastuinbouw -0,45 mg P/l per 10 jaar (24%)
+
+[^05-nutrienten-6]: boezem: -0,42 mg N/l per 10 jaar (7%)
+
+::: column-body-outset
+```{r}
+#| label: fig-fosfor-plot
+#| dpi: 150
+#| fig-height: 4.5
+#| fig-width: 9
+#| fig-cap: "Gemiddelde fosfaatconcentratie per type landgebruik per jaar"
+#| lightbox:
+#|   group: nutrienten
+fosfor_plot
+```
+:::
+
+::: column-body-outset
+```{r stikstof-plot}
+#| label: fig-stikstof-plot
+#| dpi: 150
+#| fig-height: 4.5
+#| fig-width: 9
+#| out-width: "100%"
+#| fig-cap: "Gemiddelde stikstofconcentratie per type landgebruik per jaar."
+#| lightbox:
+#|   group: nutrienten
+stikstof_plot
+```
+:::
+
+[HOME](#samenvatting)

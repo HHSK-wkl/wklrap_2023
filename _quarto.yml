@@ -1,0 +1,55 @@
+project:
+  type: book
+  post-render: 
+   - "R/post_render_zwem_icons.R"
+book:
+  title: "Rapportage waterkwaliteit 2023 - HHSK"
+  # cover-image: "images/zomer_veenweide_full_colour_800px.jpg"
+  sidebar: 
+    logo: "images/logo_hhsk.png"
+  page-footer: 
+    center: 
+      "![](images/schonevoeten.png){width=50%}"
+  page-navigation: true
+  twitter-card: true
+  open-graph: true
+  # abstract-title: "Introductie"
+  # abstract: ""
+  search: true
+  # author: "Jane Doe"
+  date: "2024-1-23"
+  chapters:
+    - "index.qmd"
+    # -  "test.qmd" 
+    - "01-toestand-planten.qmd"
+    - "02-krw.qmd"
+    # - "03-overig-water.qmd"
+    - "04-zwemwater.qmd"
+    - "05-nutrienten.qmd"
+    - "06-bestrijdingsmiddelen.qmd"
+    - "07-PFAS.qmd"
+    - "09-meer_info.qmd"
+    - "98-colofon.qmd"
+format:
+  html:
+    css: "styles_wklrap.css"
+    theme: cosmo
+    fig-format: svg
+    # cap-location: margin
+    reference-location: document
+    # mainfont: Verdana
+lang: nl
+language: 
+  nl:
+    section-title-abstract: ""
+    title-block-published: "Datum"
+    toc-title-document: "In dit hoofdstuk"
+    crossref-fig-title: "figuur"
+execute: 
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
+# code-tools: true
+filters:
+   - lightbox

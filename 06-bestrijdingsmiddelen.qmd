@@ -1,0 +1,146 @@
+---
+lightbox: auto
+---
+
+# Bestrijdingsmiddelen {#gbm}
+
+::: samenvatting
+|                                          |                                                                                               |
+|---|------------------------------------------------|
+| [{{< fa circle-exclamation >}}]{.oranje} | De normen voor bestrijdingsmiddelen worden op veel plaatsen overschreden.                     |
+| [{{< fa circle-exclamation >}}]{.oranje} | De aanwezigheid van bestrijdingsmiddelen leidt tot schadelijke effecten op planten en dieren. |
+| [{{< fa circle-down >}}]{.blauw}         | Het aantal normoverschrijdingen van bestrijdingsmiddelen is de laatste 10 jaar verminderd.    |
+
+::: aside
+![](images%5Cvince_sad2.svg){.nolightbox fig-align="center" width="200"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: code-gbm
+#| file: "R/CODE_bestrijdingsmiddelen.R"
+#| include: false
+#| cache: false
+```
+
+### Introductie {.unnumbered}
+
+Bestrijdingsmiddelen zijn stoffen die meestal bedoeld zijn om landbouwgewassen te beschermen tegen schade en ziektes. Daarom worden ze ook wel gewasbeschermingsmiddelen[^06-bestrijdingsmiddelen-1] genoemd. De meeste van deze stoffen zijn giftig en hebben als doel om bepaalde planten, schimmels of insecten te doden. Vaak komen deze stoffen ook in het water terecht. In het water zijn deze stoffen schadelijk voor het leven onder water. Het schadelijke effect wordt nog versterkt doordat er vaak meerdere schadelijke stoffen tegelijk aanwezig zijn. Het waterschap spant zich in om te voorkomen dat deze milieuvreemde stoffen niet in het oppervlaktewater terecht komen.
+
+[^06-bestrijdingsmiddelen-1]: In deze rapportage gebruiken we bestrijdingsmiddelen als aanduiding. De term gewasbeschermingsmiddelen is vanuit de landbouw gangbaar: deze stoffen worden in de landbouw gebruikt ter bescherming van het gewas.
+
+    In het water is er echter geen gewas om te beschermen en zijn deze stoffen alleen maar schadelijk voor planten en dieren. De term bestrijdingsmiddelen maakt dat duidelijker. Bovendien is het woord bestrijdingsmiddel voor de gemiddelde lezer beter te begrijpen dan het woord gewasbeschermingsmiddel.
+
+Uit onderzoek blijkt dat de meeste bestrijdingsmiddelen voorkomen in het glastuinbouwgebied.[^06-bestrijdingsmiddelen-2] Het grootste deel van de metingen van bestrijdingsmiddelen worden daarom gedaan in het glastuinbouwgebied.[^06-bestrijdingsmiddelen-3]
+
+[^06-bestrijdingsmiddelen-2]: In 2020 is er een gebiedsbrede screening uitgevoerd om controleren of deze verwachting juist is. Uit de screening blijkt dat gewasbeschermingsmiddelen vooral in het glastuinbouwgebied worden aangetroffen. In de Krimpenerwaard werden vrijwel geen gewasbeschermingsmiddelen aangetroffen.
+
+[^06-bestrijdingsmiddelen-3]: Onderzoek naar bestrijdingsmiddelen is erg kostbaar doordat het gaat om honderden verschillende stoffen die bij zeer lage concentraties gemeten moeten worden. Daarom kunnen deze stoffen niet op veel plekken en met een hoge frequentie gemeten worden. Hierdoor het is beeld van de aanwezige bestrijdingsmiddelen niet volledig. Het is daarom mogelijk dat er op sommige momenten en/of op sommige plekken hoge concentraties bestrijdingsmiddelen aanwezig zijn die niet worden opgemerkt.
+
+Dit hoofdstuk gaat over de aanwezigheid en de schadelijkheid van bestrijdingsmiddelen en of deze de normen overschrijden.
+
+### Aanwezigheid bestrijdingsmiddelen {.unnumbered}
+
+In @fig-kaart-overschrijdingen is te zien op welke locaties de normen voor bestrijdingsmiddelen in `r rap_jaar` overschreden werden. Het is duidelijk bestrijdingsmiddelen op de meeste locaties een probleem vormen.
+
+```{r}
+#| label: fig-kaart-overschrijdingen
+#| fig-cap: !expr 'glue("Op welke meetlocaties was er in {rap_jaar} een overschrijding van de normen voor bestrijdingsmiddelen? (interactief)<br>Door op een meetpunt te klikken, is t worden er extra informatie getoond")'
+#| out-width: "100%"
+
+kaart_overschrijdingen
+
+```
+
+Bestrijdingsmiddelen overschrijden de normen op veel verschillende plekken. Daarnaast gaat het ook om veel verschillende bestrijdingsmiddelen. In `r rap_jaar` zijn in totaal **`r oranje_tekst(aantal_gbm_aanwezig, 20)`** verschillende bestrijdingsmiddelen aangetroffen. Daarvan overschreden **`r oranje_tekst(aantal_gbm_overschrijdend, 20)`** stoffen de normen. De grootste overschrijding werd veroorzaakt door de verboden stof dichloorvos. Deze stof overschreed de norm **`r oranje_tekst("310x", 20)`** op een locatie in de Polder Bleiswijk.
+
+Op de onderzoekslocaties waren er in `r rap_jaar` gemiddeld **`r oranje_tekst(gbm_per_monster_aanwezig, 20)`** verschillende bestrijdingsmiddelen in het water aanwezig. Daarvan overschreden er gemiddeld **`r oranje_tekst(gbm_per_monster_overschrijdend, 20)`** de normwaarde. Er zijn dus altijd behoorlijk veel bestrijdingsmiddelen aanwezig die regelmatig ook de normen overschrijden.
+
+Het volgende deel beschrijft wat voor effecten de aanwezige bestrijdingsmiddelen hebben op het waterleven.
+
+### Schadelijke effecten {.unnumbered}
+
+Hoe schadelijk zijn de aanwezige bestrijdingsmiddelen voor het waterleven? Het antwoord op die vraag is afhankelijk van de concentratie en de gifigheid van de stof. Met deze infromatie kan de schadelijkheid worden uitgerekend.[^06-bestrijdingsmiddelen-4] Het resultaat van deze berekening is een inschatting van het aandeel van alle soorten planten en dieren dat schade oploopt (msPAF). Er zijn schadelijke effecten op het ecoysteem als meer dan 0,5% van de planten en dieren wordt aangetast.
+
+[^06-bestrijdingsmiddelen-4]: Deze informatie is ongeveer voor 75% van de aangetroffen stoffen beschikbaar
+
+De schade kan worden uitgedrukt in acute effecten en chronische effecten.
+
+-   *Acute effecten* zijn effecten die snel optreden zoals sterfte en verlamming.
+-   *Chronische effecten* zijn niet direct dodelijk, maar kunnen op lange termijn wel een grote impact hebben; het gaat dan bijvoorbeeld om verminderde groei of het niet voltooien van de levenscyclus waardoor een soort zich niet voortplant.
+
+De acute schadelijkheid van bestrijdingsmiddelen in `r rap_jaar` is in @fig-mspaf-mp per meetlocatie weergegeven. Het is opvallend dat schadelijke effecten vrijwel alleen maar optreden op meetlocaties in het glastuinbouwgebied. De acute effecten lopen op tot 7%. Dat betekent dat 1 op de 14 soorten op deze locatie waarschijnlijk direct dood gaat. De chronische effecten lopen zelfs op tot 15-20% schade. Dat betekent dat meer dan 1 op de 6 soorten planten en dieren last heeft van de aanwezige bestrijdigsmiddelen.
+
+::: column-body
+```{r}
+#| label: fig-mspaf-mp
+#| out-width: "100%"
+#| fig-height: 5
+#| fig-cap: "Schadelijkheid van de aangetroffen gewasbeschermingsmiddelen per meetlocatie uitgedrukt als msPAF. De oranje stippellijn geeft de grens van 0,5% aan. De schadelijkheid is bepaald door per locatie van iedere stof het effect van de hoogst gemeten concentratie te bepalen. "
+#| lightbox:
+#|   group: gbm
+plot_mspaf_mp
+```
+:::
+
+Neemt de schade door gewasbeschermingsmiddelen toe of af? In @fig-mspaf-tijd is de ontwikkeling van de acute giftigheid door de jaren weergegeven.[^06-bestrijdingsmiddelen-5] Elk punt is de giftigheid van een afzonderlijk monster. In 2023 waren er nog steeds veel monsters met een hoge giftigheid. Situaties met een hele hoge giftigheid komen wel steeds minder voor.
+
+[^06-bestrijdingsmiddelen-5]: De ontwikkeling van de chronische giftigheid is te zien in @fig-mspaf-tijd-chronisch.
+
+::: aside
+```{r}
+#| label: fig-mspaf-tijd-chronisch
+#| out-width: "100%"
+#| fig-cap: "Welk aandeel van de soorten kan chronische schade ondervinden van de aanwezige gewasbeschermingsmiddelen?"
+#| lightbox:
+#|   group: gbm
+plot_mspaf_tijd_chronisch
+```
+:::
+
+::: column-body
+```{r}
+#| label: fig-mspaf-tijd
+#| out-width: "100%"
+#| fig-cap: "Welk aandeel van de soorten kan acute schade ondervinden van de aanwezige gewasbeschermingsmiddelen?<br>Elk punt is de giftigheid van een afzonderlijk monster. Monsters waar minder dan 1 op de 100.000 soorten worden aangetast zijn niet getoond. Onder het jaartal is weergegeven hoeveel monsters er in dat jaar zijn genomen.<br>De horizontale lijnen geven de grens aan tussen zeer hoge toxiciteit en hoge toxiciteit (1 op de 10) en de grens tussen hoge toxiciteit en matige toxiciteit. (1 op de 200)."
+#| lightbox:
+#|   group: gbm
+plot_mspaf_tijd
+```
+:::
+
+### Ontwikkeling normoverschrijdingen {.unnumbered}
+
+Op elke onderzochte locatie kan elk afzonderlijk bestrijdingsmiddel worden getoetst aan de norm. Dit leidt tot een groot aantal toetsingen (*aantal locaties x aantal stoffen*). Bij een gedeelte van deze toetsingen wordt een overschrijding van de norm geconstateerd. Het percentage van de toetsingen met een normoverschrijding geeft een indicatie of het aantal normoverschrijdingen verandert. In @fig-overschr-fractie-van-toetsingen is de ontwikkeling van het percentage normoverschrijdingen weergegeven per type landgebruik. Er is te zien dat het percentage overschrijdingen over het algemeen afneemt.
+
+::: column-body
+```{r}
+#| label: fig-overschr-fractie-van-toetsingen
+#| fig-height: 5
+#| out-width: "100%"
+#| fig-cap: "Het percentage van alle toetsingen waar een overschrijding wordt geconstateerd per type landgebruik. Met polderafvoer wordt de plaats bedoeld waar het water van een hele polder verzameld en afgevoerd wordt."
+#| lightbox:
+#|   group: gbm
+plot_overschr_freq
+```
+:::
+
+### Stoffen zonder norm {.unnumbered}
+
+Voor sommige (nieuwe) gewasbeschermingsmiddelen bestaat er nog geen norm. Als deze gewasbeschermingsmiddelen worden aangetroffen, dan kan niet worden beoordeeld hoe ernstig dat is.
+
+In onderstaande tabel is te zien dat de stoffen cyantraniliprole en flupyradifuron zeer vaak in de monsters worden aangetroffen. Voor deze twee stoffen heeft het RIVM[^06-bestrijdingsmiddelen-6] een aanbeveling gegeven voor een norm maar deze normen zijn nog niet officieel vastgesteld. Volgens deze conceptnormen zou flupyradifuron in 2021 en in 2022 de norm hebben overschreden op één locatie. Cyantraniliprole zou in 2023 op twee locaties de conceptnorm overschrijden.
+
+[^06-bestrijdingsmiddelen-6]: [Risicogrenzen voor gewasbeschermingsmiddelen in oppervlaktewater - RIVM-briefrapport 2022-0210 (rivm.nl)](https://www.rivm.nl/bibliotheek/rapporten/2022-0210.pdf)
+
+```{r}
+#| label: tbl-gbm-zonder-norm
+#| out-width: "100%"
+#| fig-height: 4
+#| tbl-cap: "Aangetroffen gewasbeschermingsmiddelen zonder norm"
+tabel_niet_toetsbaar
+```
+
+[HOME](#samenvatting)
