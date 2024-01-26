@@ -20,7 +20,7 @@ rap_jaar <- 2023
 
 meetpunten <- HHSKwkl::import_meetpunten()
 ws_grens <- read_sf("data/ws_grens.gpkg") %>% st_transform(crs = 4326)
-bio <- read_csv2("data/biologie.csv") %>% HHSKwkl::add_jaar()
+bio <- readRDS("data/biologie.rds") %>% HHSKwkl::add_jaar()
 planten_info <- readxl::read_excel("data/planten_info.xlsx", sheet = "planten_info")
 fys_chem <- readRDS("data/fys_chem.rds")
 
