@@ -28,7 +28,7 @@ Zwemmen is een belangrijke recreatieve functie van het water. In dit hoofdstuk i
 ***Stoffen in het water***
 
 [Hoofdstuk @sec-nutrienten]\
-De voedingsstoffen *fosfaat en stikstof* bepalen hoe snel waterplanten, kroos en algen kunnen groeien. Vaak zorgen teveel voedingsstoffen voor een slechte waterkwaliteit. In dit hoofdstuk is te lezen dat er vooral in het glastuinbouwgebied erg veel voedingsstoffen in het water aanwezig zijn.
+De voedingsstoffen *fosfaat en stikstof* bepalen hoe snel waterplanten, kroos en algen kunnen groeien. Vaak zorgen teveel voedingsstoffen voor een slechte waterkwaliteit. In dit hoofdstuk is te lezen dat de hoeveelheid fosfaat in het gebied langzaam maar zeker afneemt.
 
 [Hoofdstuk @sec-gbm]\
 *Gewasbeschermingsmiddelen of bestrijdingsmiddelen* worden in de landbouw gebruikt om gewassen te beschermen tegen ziektes en insecten. Deze stoffen kunnen schadelijk zijn voor het onderwaterleven. In is te lezen dat er veel (54) bestrijdingsmiddelen in het water aanwezig zijn en dat 14 van deze stoffen de norm overschrijden. Met name in het glastuinbouwgebied zorgen deze stoffen voor schade aan het onderwaterleven.
@@ -37,7 +37,7 @@ De voedingsstoffen *fosfaat en stikstof* bepalen hoe snel waterplanten, kroos en
 *PFAS*-stoffen zijn stoffen die vrijwel niet afbreken en waarvan steeds meer duidelijk wordt dat ze schadelijk zijn voor de gezondheid. In dit hoofdstuk is te lezen dat deze stoffen overal in het gebied worden aangetroffen. Op sommige locaties is de concentratie PFAS erg hoog.
 
 ***En verder***\
-Er is veel meer informatie over waterkwaliteit dan in deze rapportage opgenomen kan worden. In het [hoofstuk Meer informatie](#meer_info) zijn een aantal verwijzingen opgenomen naar bronnen met meer gegevens en informatie over waterkwaliteit.
+Er is veel meer informatie over waterkwaliteit dan in deze rapportage opgenomen kan worden. In het [hoofdstuk Meer informatie](#meer_info) zijn een aantal verwijzingen opgenomen naar bronnen met meer gegevens en informatie over waterkwaliteit.
 
 Deze rapportage is voor een belangrijk deel automatisch opgebouwd uit data en computercode. De data en code zijn beschikbaar via [Github - Waterkwaliteitsrapportage 2023](https://github.com/HHSK-wkl/wklrap_2023).
 
