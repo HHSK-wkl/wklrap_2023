@@ -43,7 +43,7 @@ Dit hoofdstuk gaat over de aanwezigheid en de schadelijkheid van bestrijdingsmid
 
 ### Aanwezigheid bestrijdingsmiddelen {.unnumbered}
 
-In @fig-kaart-overschrijdingen is te zien op welke locaties de normen voor bestrijdingsmiddelen in `r rap_jaar` overschreden werden. Het is duidelijk bestrijdingsmiddelen op de meeste locaties een probleem vormen.
+In @fig-kaart-overschrijdingen is te zien op welke locaties de normen voor bestrijdingsmiddelen in `r rap_jaar` overschreden werden. Op veel locaties overschrijden bestrijdingsmiddelen de normen. Er zijn ook een aantal locaties waar geen enkele stof afzonderlijk de norm overschrijdt. Toch zijn ook op deze locaties veel bestrijdingsmiddelen aanwezig. Als je het mengsel van deze stoffen gezamenlijk zou beoordelen dan zou ook deze locaties sprake zijn van een normoverschrijding.
 
 ```{r}
 #| label: fig-kaart-overschrijdingen
