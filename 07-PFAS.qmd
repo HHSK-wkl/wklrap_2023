@@ -96,7 +96,7 @@ Uit de metingen blijkt dat zwemmers in het Kralings Zwembad veel PFAS binnen kun
 
 ```{r}
 #| label: fig-zwem-pfas
-#| fig-cap: "Welk percentage van de toelaatbare dagelijkse inname kan een kind binnenkrijgen?"
+#| fig-cap: "Welk percentage van de toelaatbare dagelijkse inname voor PFAS kan een kind binnenkrijgen?"
 #| lightbox:
 #|   group: pfas
 plot_zwem_pfas

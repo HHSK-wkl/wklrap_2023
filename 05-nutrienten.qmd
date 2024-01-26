@@ -2,11 +2,11 @@
 lightbox: auto
 ---
 
-# Fosfaat en stikstof {#nutrienten}
+# Fosfaat en stikstof {#sec-nutrienten}
 
 ::: samenvatting
 |                                  |                                                                                                                        |
-|---|-------------------------------------------------|
+|---|------------------------------------------------------------|
 | [{{< fa circle-down >}}]{.blauw} | De hoeveelheid fosfaat en stikstof in het glastuinbouwgebied was in 2023 lager dan in voorgaande jaren.                |
 | [{{< fa star >}}]{.blauw}        | In de grote plassen zijn de nutriëntenconcentraties het laagst.                                                        |
 | [{{< fa circle-down >}}]{.blauw} | De hoeveelheid fosfaat neemt langzaam af in gebieden met grasland, stedelijk gebied, de boezems en in de glastuinbouw. |
@@ -96,4 +96,4 @@ stikstof_plot
 ```
 :::
 
-[HOME](#samenvatting)
+

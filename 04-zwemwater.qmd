@@ -1,4 +1,4 @@
-# Zwemwater {#zwemwater}
+# Zwemwater {#sec-zwemwater}
 
 ---
 lightbox: auto
@@ -14,7 +14,7 @@ description: "Dit gaat over zwemwater"
 
 ::: samenvatting
 |                                          |                                                                                                                            |
-|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+|---|------------------------------------------------------------|
 | [{{< fa circle-check >}}]{.blauw}        | De bacteriologische zwemwaterkwaliteit is overal goed of uitstekend en voldoet aan de normen uit de EU Zwemwaterrichtlijn. |
 | [{{< fa circle-arrow-up >}}]{.oranje}    | In 2023 waren er meer dagen met een waarschuwing voor blauwalgen dan in de voorgaande drie jaar.                           |
 | [{{< fa circle-exclamation >}}]{.oranje} | Op 4 zwemlocaties hadden mensen in 2023 last van jeukklachten.                                                             |
@@ -96,4 +96,3 @@ In 2023 heeft het waterschap onderzoek gedaan naar PFAS. Hierbij is ook gekeken 
 
 Een verdere toelichting op de aanwezigheid van PFAS en de relatie met zwemwater is te vinden in [hoofdstuk @sec-pfas].
 
-[HOME](#samenvatting)

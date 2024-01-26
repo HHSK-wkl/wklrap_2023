@@ -2,7 +2,7 @@
 lightbox: auto
 ---
 
-# Ecologisch doelbereik - KRW {#krw}
+# Ecologisch doelbereik - KRW {#sec-krw}
 
 ```{r code-krw}
 #| file: "R/CODE_krw.R"
@@ -12,7 +12,7 @@ lightbox: auto
 
 ::: samenvatting
 |                                          |                                                                                          |
-|------------|------------------------------------------------------------|
+|---|------------------------------------------------------------|
 | [{{< fa circle-info >}}]{.grijs}         | Het hoogheemraadschap heeft 26 verschillende waterlichamen.                              |
 | [{{< fa circle-check >}}]{.blauw}        | De boezems en plassen voldoen grotendeels aan de KRW-doelen.                             |
 | [{{< fa circle-exclamation >}}]{.oranje} | Vooral in lijnvormige wateren voldoen waterplanten en macrofauna nog niet aan de doelen. |
@@ -96,7 +96,7 @@ krw_opgave
 
 ### Wat is overig water? {.unnumbered}
 
-Wateren die geen KRW-waterlichaam zijn, worden aangeduid als 'overig water'. Het overig water is voornamelijk ingedeeld naar het landgebruik; het landgebruik heeft namelijk een grote invloed heeft op de mogelijkheden en beperkingen voor het waterleven. Voor elke vorm van landgebruik is een doel voor het overig water bepaald. Voor sommige wateren is daarnaast een doel vastgesteld dat specifiek aansluit op de lokale situatie. De indeling van het overig water is te zien op de onderstaande kaart (@fig-kaart-overig).
+Wateren die geen KRW-waterlichaam zijn, worden aangeduid als 'overig water'. Het overig water is voornamelijk ingedeeld naar het landgebruik; het landgebruik heeft namelijk een grote invloed op de mogelijkheden en beperkingen voor het waterleven. Voor elke vorm van landgebruik is een doel voor het overig water bepaald. Voor sommige wateren is daarnaast een doel vastgesteld dat specifiek aansluit op de lokale situatie. De indeling van het overig water is te zien op de onderstaande kaart (@fig-kaart-overig).
 
 ```{r}
 #| label: fig-kaart-overig
@@ -138,4 +138,4 @@ In de onderstaande figuur (@fig-overig-opgave) is in blauw te zien wat de huidig
 overig_opgave
 ```
 
-[HOME](#samenvatting)
+

@@ -2,11 +2,11 @@
 lightbox: auto
 ---
 
-# Bestrijdingsmiddelen {#gbm}
+# Bestrijdingsmiddelen {#sec-gbm}
 
 ::: samenvatting
 |                                          |                                                                                               |
-|---|------------------------------------------------|
+|---|------------------------------------------------------------|
 | [{{< fa circle-exclamation >}}]{.oranje} | De normen voor bestrijdingsmiddelen worden op veel plaatsen overschreden.                     |
 | [{{< fa circle-exclamation >}}]{.oranje} | De aanwezigheid van bestrijdingsmiddelen leidt tot schadelijke effecten op planten en dieren. |
 | [{{< fa circle-down >}}]{.blauw}         | Het aantal normoverschrijdingen van bestrijdingsmiddelen is de laatste 10 jaar verminderd.    |
@@ -47,7 +47,7 @@ In @fig-kaart-overschrijdingen is te zien op welke locaties de normen voor bestr
 
 ```{r}
 #| label: fig-kaart-overschrijdingen
-#| fig-cap: !expr 'glue("Op welke meetlocaties was er in {rap_jaar} een overschrijding van de normen voor bestrijdingsmiddelen? (interactief)<br>Door op een meetpunt te klikken, is t worden er extra informatie getoond")'
+#| fig-cap: !expr 'glue("Op welke meetlocaties was er in {rap_jaar} een overschrijding van de normen voor bestrijdingsmiddelen? (interactief)<br>Door op een meetpunt te klikken wordt er extra informatie getoond.")'
 #| out-width: "100%"
 
 kaart_overschrijdingen
@@ -120,7 +120,7 @@ Op elke onderzochte locatie kan elk afzonderlijk bestrijdingsmiddel worden getoe
 #| label: fig-overschr-fractie-van-toetsingen
 #| fig-height: 5
 #| out-width: "100%"
-#| fig-cap: "Het percentage van alle toetsingen waar een overschrijding wordt geconstateerd per type landgebruik. Met polderafvoer wordt de plaats bedoeld waar het water van een hele polder verzameld en afgevoerd wordt."
+#| fig-cap: "Het percentage van alle toetsingen waar een overschrijding wordt geconstateerd per type landgebruik."
 #| lightbox:
 #|   group: gbm
 plot_overschr_freq
@@ -142,5 +142,3 @@ In onderstaande tabel is te zien dat de stoffen cyantraniliprole en flupyradifur
 #| tbl-cap: "Aangetroffen gewasbeschermingsmiddelen zonder norm"
 tabel_niet_toetsbaar
 ```
-
-[HOME](#samenvatting)
