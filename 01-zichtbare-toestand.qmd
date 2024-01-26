@@ -65,6 +65,8 @@ Kroos[^01-zichtbare-toestand-2] kan hard groeien als er (te) veel voedingsstoffe
 plot_kroos
 ```
 
+{{< pagebreak >}}
+
 ### Kreeften {.unnumbered}
 
 Amerikaanse rivierkreeften komen oorspronkelijk niet in Nederland voor: ze zijn hier ontsnapt of vrijgelaten. Sinds een aantal jaar worden de kreeften op steeds meer plekken gezien. De meeste kreeften blijven in het water, maar in de zomer worden ze ook regelmatig gezien in tuinen of op het fietspad.
@@ -79,6 +81,8 @@ Het waterschap doet sinds 2020 jaarlijks onderzoek naar de aanwezigheid van Amer
 
 [^01-zichtbare-toestand-3]: Het hoogheemraadschap heeft in 2023 geïnventariseerd waar Amerikaanse kreeften voorkomen. De [rapportage over Amerikaanse Rivierkreeften](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/kreeften_2023/){target="_blank"} is online te lezen.
 
+{{< pagebreak >}}
+
 ```{r}
 #| label: fig-kaart-kreeften
 #| out-width: "100%"
@@ -86,9 +90,11 @@ Het waterschap doet sinds 2020 jaarlijks onderzoek naar de aanwezigheid van Amer
 kaart_kreeften
 ```
 
+{{< pagebreak >}}
+
 ### Blauwalgen {.unnumbered}
 
-Blauwalgen[^01-zichtbare-toestand-4] \[ zijn geen echte algen maar een bepaalde groep bacteriën (cyanobacteriën) die zich gedragen als algen. Onder voedselrijke omstandigheden kunnen blauwalgen massaal gaan groeien. Hierdoor wordt het water troebel waardoor andere planten niet kunnen groeien. Blauwalgen vormen ook vaak drijflagen die na verloop van tijd afsterven en gaan rotten. Zo'n afstervende drijflaag gaat behoorlijk stinken. Drijflagen van blauwalgen zijn makkelijk te herkennen aan hoe ze eruit zien en soms ook aan de lucht. De aanwezigheid van veel blauwalgen is een aanwijzing dat de waterkwaliteit niet zo goed is.
+Blauwalgen[^01-zichtbare-toestand-4] zijn geen echte algen maar een bepaalde groep bacteriën (cyanobacteriën) die zich gedragen als algen. Onder voedselrijke omstandigheden kunnen blauwalgen massaal gaan groeien. Hierdoor wordt het water troebel waardoor andere planten niet kunnen groeien. Blauwalgen vormen ook vaak drijflagen die na verloop van tijd afsterven en gaan rotten. Zo'n afstervende drijflaag gaat behoorlijk stinken. Drijflagen van blauwalgen zijn makkelijk te herkennen aan hoe ze eruit zien en soms ook aan de lucht. De aanwezigheid van veel blauwalgen is een aanwijzing dat de waterkwaliteit niet zo goed is.
 
 [^01-zichtbare-toestand-4]: Ondanks hun naam zijn blauwalgen niet blauw, maar groen. De naam blauwalgen hebben ze gekregen door de blauwe kleurstof die vrijkomt als ze afsterven.
 
@@ -97,6 +103,8 @@ In 2023 zijn er op veel plekken blauwalgen aangetroffen (zie @fig-kaart-blauwalg
 ::: aside
 ![Veel blauwalgen in het water](images/blauwalgen.jpg){group="toestand"}
 :::
+
+{{< pagebreak >}}
 
 ```{r}
 #| label: fig-kaart-blauwalgen

@@ -14,7 +14,7 @@ Hoe is de waterkwaliteit in het gebied van het waterschap? Dat is een vraag met 
 
 De waterkwaliteit in het gebied van het hoogheemraadschap van Schieland en de Krimpenerwaard wordt voortdurend onderzocht. Op basis van dat onderzoek maakt het waterschap jaarlijks deze rapportage over de waterkwaliteit. De rapportage beschrijft de toestand van de waterkwaliteit en in welke mate waterkwaliteitsdoelen worden bereikt. De rapportage is bedoeld voor burgers, bedrijven en bestuurders.
 
-***Actuele toestand en doelen***
+### Actuele toestand en doelen
 
 [Hoofdstuk @sec-toestand]\
 Waterplanten hebben een sleutelrol voor het onderwaterleven. In dit hoofdstuk is te lezen dat er in de Krimpenerwaard steeds minder wateren met onderwaterplanten zijn. Dit komt door de opmars van de Amerikaanse rivierkreeften.
@@ -25,7 +25,9 @@ Het waterschap werkt, samen met andere partijen, aan de verbetering van de water
 [Hoofdstuk @sec-zwemwater]\
 Zwemmen is een belangrijke recreatieve functie van het water. In dit hoofdstuk is te lezen over de kwaliteit van het zwemwater. De zwemwaterkwaliteit voldoet op officiële zwemlocaties aan de norm uit de Europese zwemwaterrichtlijn. Wel zijn er op diverse locaties af en toe problemen als gevolg van blauwalgen en zwemmersjeuk.
 
-***Stoffen in het water***
+{{< pagebreak >}}
+
+### Stoffen in het water
 
 [Hoofdstuk @sec-nutrienten]\
 De voedingsstoffen *fosfaat en stikstof* bepalen hoe snel waterplanten, kroos en algen kunnen groeien. Vaak zorgen teveel voedingsstoffen voor een slechte waterkwaliteit. In dit hoofdstuk is te lezen dat de hoeveelheid fosfaat in het gebied langzaam maar zeker afneemt.
@@ -36,7 +38,8 @@ De voedingsstoffen *fosfaat en stikstof* bepalen hoe snel waterplanten, kroos en
 [Hoofdstuk @sec-pfas]\
 *PFAS*-stoffen zijn stoffen die vrijwel niet afbreken en waarvan steeds meer duidelijk wordt dat ze schadelijk zijn voor de gezondheid. In dit hoofdstuk is te lezen dat deze stoffen overal in het gebied worden aangetroffen. Op sommige locaties is de concentratie PFAS erg hoog.
 
-***En verder***\
+### En verder
+
 Er is veel meer informatie over waterkwaliteit dan in deze rapportage opgenomen kan worden. In het [hoofdstuk Meer informatie](#meer_info) zijn een aantal verwijzingen opgenomen naar bronnen met meer gegevens en informatie over waterkwaliteit.
 
 Deze rapportage is voor een belangrijk deel automatisch opgebouwd uit data en computercode. De data en code zijn beschikbaar via [Github - Waterkwaliteitsrapportage 2023](https://github.com/HHSK-wkl/wklrap_2023).

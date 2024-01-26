@@ -51,6 +51,8 @@ Op de onderstaande kaart (@fig-kaart-zwemlocaties) is de ligging van de verschil
 
 De zwemlocatie Willem-Alexanderbaan is pas sinds 2023 aangewezen als zwemlocatie en heeft daarom nog geen beoordeling.
 
+{{< pagebreak >}}
+
 ```{r}
 #| label: fig-kaart-zwemlocaties
 #| fig-cap: "Ligging van de zwemlocaties met de bacteriologische beoordeling (interactief)"
@@ -74,6 +76,8 @@ Als er veel blauwalgen op een zwemlocatie zijn, wordt daarvoor gewaarschuwd. In 
 blauwalgenplot
 
 ```
+
+{{< pagebreak >}}
 
 ### Jeukklachten {.unnumbered}
 

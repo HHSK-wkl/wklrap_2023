@@ -48,6 +48,8 @@ Het beeld dat uit het onderzoek komt is niet positief:
 
 Hieronder wordt situatie bij HHSK verder toegelicht.
 
+{{< pagebreak >}}
+
 ### Aanwezigheid PFAS {.unnumbered}
 
 Voor het onderzoek naar de aanwezigheid van PFAS is in eerste instantie in elk KRW-waterlichaam een monster genomen. In aanvulling daarop is er extra gemeten op zwemlocaties en rond plaatsen met hoge PFAS-concentraties.
@@ -85,6 +87,8 @@ plot_grenswaarden
 
 ```
 :::
+
+{{< pagebreak >}}
 
 ### PFAS in zwemwater {.unnumbered}
 
