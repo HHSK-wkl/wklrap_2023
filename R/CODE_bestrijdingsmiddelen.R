@@ -388,7 +388,7 @@ tabel_niet_toetsbaar <-
             .by = Naam) %>% 
   select(-n, -n_aanwezig) %>% 
   bind_cols(tibble(`Soort stof` = rep("Insecticide", 3))) %>% #, Bijzonderheden = c("", "Giftig voor bijen", "Afbraak product van tolylfluanide"))) %>%
-  knitr::kable(caption = "Aangetroffen gewasbeschermingsmiddelen zonder norm", align = "lrl")
+  knitr::kable(align = "lrl")
 
 
 
