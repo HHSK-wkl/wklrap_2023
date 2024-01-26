@@ -1,0 +1,106 @@
+---
+lightbox: auto
+---
+
+# Toestand waterkwaliteit {#sec-toestand}
+
+```{r code-toestand-planten, cache = FALSE}
+#| file: "R/CODE_toestand-planten.R"
+#| include: false
+```
+
+::: samenvatting
+|                                          |                                                                                                      |
+|---|------------------------------------------------------------|
+| [{{< fa circle-down >}}]{.oranje}        | Waterplanten zijn in de Krimpenerwaard op bijna alle plekken verdwenen.                              |
+| [{{< fa circle-exclamation >}}]{.oranje} | Amerikaanse rivierkreeften hebben de hele Krimpenerwaard en veel plekken in Schieland gekoloniseerd. |
+| [{{< fa circle-exclamation >}}]{.oranje} | Blauwalgen komen op veel plekken voor en leiden soms tot overlast.                                   |
+
+::: aside
+![](images/vince_sad2.svg){.nolightbox fig-align="center" width="200"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Waterkwaliteit is zichtbaar {.unnumbered}
+
+Als je goed naar het water kijkt, dan kun je daarmee een eerste indruk krijgen van de waterkwaliteit. Is het water helder en groeien er waterplanten? Of is het water juist heel troebel of ligt er een dikke laag kroos op het water? Dat zegt allemaal iets over de waterkwaliteit. Een goede waterkwaliteit kun je vaak herkennen doordat het water dan helder is en er onder water planten groeien.
+
+In dit hoofdstuk wordt de toestand van de waterkwaliteit beschreven aan de hand van dingen die je in het water zou kunnen zien: namelijk waterplanten, kroos, rivierkreeften en blauwalgen.
+
+### Waterplanten {.unnumbered}
+
+Waterplanten hebben een sleutelrol in het onderwaterleven (ecosysteem). Ze zorgen voor de productie van zuurstof en vormen het leefgebied voor vissen en andere waterdieren. Door deze sleutelrol geven waterplanten een goede indicatie van de waterkwaliteit en de toestand van het leven onder water. De meeste planten hebben een positieve rol in het ecosysteem. Er zijn echter ook soorten, zoals kroos, die niet zo gunstig voor het water zijn.
+
+Planten die onder water groeien zijn belangrijk voor het onderwaterleven. In de Krimpenerwaard is het aantal locaties met planten onder water[^01-zichtbare-toestand-1] sterk afgenomen. Vooral in de laatste zes jaar is een sterke afname te zien. Het is aannemelijk dat de afname van waterplanten te maken heeft met de opkomst van Amerikaanse rivierkreeften.
+
+[^01-zichtbare-toestand-1]: Als grens voor wateren met waterplanten is aangehouden dat meer dan 5% van de oppervlakte met waterplanten begroeid moet zijn.
+
+::: aside
+![Een sloot met waterplanten ziet er bijna uit als een aquarium.<br>(foto: Willem Kolvoort)](images/onderwater%20landschap%201%20liggend.jpg){group="toestand"}
+:::
+
+In Schieland is er tussen jaren veel variatie in het aantal locaties met planten onder water. Het aantal locaties met waterplanten lijkt in de laatste 10 jaar wel iets af te nemen; de laatste 2 jaar zijn echter wel weer relatief goed.
+
+```{r plot-submers}
+#| label: fig-submers
+#| out-width: "100%"
+#| fig-cap: "De ontwikkeling van het aantal wateren met planten onder water in de Krimpenerwaard en in Schieland."
+#| lightbox:
+#|   group: toestand
+plot_submers
+```
+
+Kroos[^01-zichtbare-toestand-2] kan hard groeien als er (te) veel voedingsstoffen in het water aanwezig zijn. Kroos drijft op het water en kan grote delen van het water afdekken. Hierdoor is er onvoldoende licht voor andere waterplanten en is er minder zuurstofuitwisseling met de lucht. Als een groot gedeelte van het water met kroos is begroeid heeft dat een negatieve invloed op het water leven. Het aantal wateren met veel kroos is te zien in onderstaande figuur. Het aantal wateren met veel kroos varieert sterk van jaar tot jaar. In de Krimpenerwaard zijn er soms veel meer wateren met veel kroos dan in Schieland. In de laatste 5 jaar is het aantal wateren met veel kroos in de Krimpenerwaard juist opvallend laag.
+
+[^01-zichtbare-toestand-2]: Kroos bestaat uit kleine plantjes die los op het water drijven.
+
+```{r}
+#| label: fig-kroos
+#| out-width: "100%"
+#| fig-cap: "De ontwikkeling van het aantal wateren met veel kroos in de Krimpenerwaard en in Schieland."
+#| lightbox:
+#|   group: toestand
+plot_kroos
+```
+
+### Kreeften {.unnumbered}
+
+Amerikaanse rivierkreeften komen oorspronkelijk niet in Nederland voor: ze zijn hier ontsnapt of vrijgelaten. Sinds een aantal jaar worden de kreeften op steeds meer plekken gezien. De meeste kreeften blijven in het water, maar in de zomer worden ze ook regelmatig gezien in tuinen of op het fietspad.
+
+De Amerikaanse rivierkreeften hebben een negatieve invloed op het watersysteem. Ze graven in de oevers waardoor oevers afkalven en er meer bagger in de watergangen ontstaat. Ook zijn de kreeften echte alleseters: veel planten en dieren die van nature voorkomen worden door de kreeften opgegeten. De aanwezigheid van de kreeften is een probleem voor de waterkwaliteit.
+
+::: aside
+![Een Rode amerikaanse rivierkreeft](images/IMG_4177a.JPG){group="toestand"}
+:::
+
+Het waterschap doet sinds 2020 jaarlijks onderzoek naar de aanwezigheid van Amerikaanse rivierkreeften.[^01-zichtbare-toestand-3] In @fig-kaart-kreeften is de situatie van 2023 te zien. In de Krimpenerwaard zijn eigenlijk geen plekken meer waar de rivierkreeften niet voorkomen. In Schieland worden de kreeften vooral aan de zuidoostzijde aangetroffen.
+
+[^01-zichtbare-toestand-3]: Het hoogheemraadschap heeft in 2023 geïnventariseerd waar Amerikaanse kreeften voorkomen. De [rapportage over Amerikaanse Rivierkreeften](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/kreeften_2023/){target="_blank"} is online te lezen.
+
+```{r}
+#| label: fig-kaart-kreeften
+#| out-width: "100%"
+#| fig-cap: "Op welke locaties zijn in 2023 kreeften aangetroffen? (Interactief)"
+kaart_kreeften
+```
+
+### Blauwalgen {.unnumbered}
+
+Blauwalgen[^01-zichtbare-toestand-4] \[ zijn geen echte algen maar een bepaalde groep bacteriën (cyanobacteriën) die zich gedragen als algen. Onder voedselrijke omstandigheden kunnen blauwalgen massaal gaan groeien. Hierdoor wordt het water troebel waardoor andere planten niet kunnen groeien. Blauwalgen vormen ook vaak drijflagen die na verloop van tijd afsterven en gaan rotten. Zo'n afstervende drijflaag gaat behoorlijk stinken. Drijflagen van blauwalgen zijn makkelijk te herkennen aan hoe ze eruit zien en soms ook aan de lucht. De aanwezigheid van veel blauwalgen is een aanwijzing dat de waterkwaliteit niet zo goed is.
+
+[^01-zichtbare-toestand-4]: Ondanks hun naam zijn blauwalgen niet blauw, maar groen. De naam blauwalgen hebben ze gekregen door de blauwe kleurstof die vrijkomt als ze afsterven.
+
+In 2023 zijn er op veel plekken blauwalgen aangetroffen (zie @fig-kaart-blauwalgen ). Op een behoorlijk aantal locaties waren er zelfs veel blauwalgen. In @sec-zwemwater is meer te lezen over wat de gevolgen zijn van blauwalgen voor de zwemwaterkwaliteit.
+
+::: aside
+![Veel blauwalgen in het water](images/blauwalgen.jpg){group="toestand"}
+:::
+
+```{r}
+#| label: fig-kaart-blauwalgen
+#| out-width: "100%" 
+#| fig-cap: "Op welke locaties waren er veel blauwalgen? De kaart is gemaakt op basis van de grootst gemeten hoeveelheid blauwalgen in 2023. De indeling is gemaakt op basis van de risicobeoordeling voor zwemwater. (interactief)"
+kaart_blauwalgen
+```
