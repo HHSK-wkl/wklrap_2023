@@ -38,7 +38,7 @@ Fosfaat en stikstof zijn voedingsstoffen die planten en algen nodig hebben om te
 
 De hoeveelheid fosfaat en stikstof heeft een sterke relatie met het landgebruik. In de onderstaande grafiek (@fig-nutrienten-plot) is de gemiddelde nutriëntenconcentratie in `r rap_jaar` weergegeven per type landgebruik.[^05-nutrienten-3]
 
-[^05-nutrienten-3]: Voor het type landgebruik zijn alleen de meest voorkomende typen opgenomen. Het type gras betreft zowel het veenweidegebied in de Krimpenerwaard als het veenweidegebied in Schieland. Onder het type boezem vallen de Rotte, de Ringvaart en de Vaart Bleiswijk.
+[^05-nutrienten-3]: Voor het type landgebruik zijn alleen de meest voorkomende typen opgenomen. Het type *grasland* betreft zowel het veenweidegebied in de Krimpenerwaard als het veenweidegebied in Schieland. Onder het type *boezem* vallen de Rotte, de Ringvaart en de Vaart Bleiswijk.
 
 In de gebieden die voor landbouw gebruikt worden is de meeste fosfaat en stikstof aanwezig. Van de landbouwgebieden heeft het glastuinbouwgebied de grootste hoeveelheid fosfaat en stikstof. Het verschil tussen het glastuinbouwgebied en de andere gebieden was in 2023 echter veel kleiner dan in voorgaande jaren.
 
