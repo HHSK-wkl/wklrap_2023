@@ -21,7 +21,7 @@ book:
   chapters:
     - "index.qmd"
     # -  "test.qmd" 
-    - "01-toestand-planten.qmd"
+    - "01-zichtbare-toestand.qmd"
     - "02-krw.qmd"
     # - "03-overig-water.qmd"
     - "04-zwemwater.qmd"
@@ -45,6 +45,8 @@ language:
     title-block-published: "Datum"
     toc-title-document: "In dit hoofdstuk"
     crossref-fig-title: "figuur"
+    crossref-ch-prefix: "hoofdstuk"
+    
 execute: 
   freeze: auto
   echo: false
