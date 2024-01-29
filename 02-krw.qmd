@@ -11,15 +11,15 @@ lightbox: auto
 ```
 
 ::: samenvatting
-|                                          |                                                                                          |
-|---|------------------------------------------------------------|
-| [{{< fa circle-info >}}]{.grijs}         | Het hoogheemraadschap heeft 26 verschillende waterlichamen.                              |
-| [{{< fa circle-check >}}]{.blauw}        | De boezems en plassen voldoen grotendeels aan de KRW-doelen.                             |
-| [{{< fa circle-exclamation >}}]{.oranje} | Vooral in lijnvormige wateren voldoen waterplanten en macrofauna nog niet aan de doelen. |
-| [{{< fa circle-exclamation >}}]{.grijs}  | Het meeste overige water bevindt zich op de helft van het doel.                          |
+|                                          |                                                                                              |
+|------------|------------------------------------------------------------|
+| [{{< fa circle-info >}}]{.grijs}         | Het hoogheemraadschap heeft 26 verschillende waterlichamen.                                  |
+| [{{< fa circle-check >}}]{.blauw}        | Er zijn vier waterlichamen die momenteel voor alle biologische groepen voldoen aan het doel. |
+| [{{< fa circle-exclamation >}}]{.oranje} | Vooral in lijnvormige wateren voldoen waterplanten en macrofauna nog niet aan de doelen.     |
+| [{{< fa circle-exclamation >}}]{.grijs}  | Het meeste overige water bevindt zich op de helft van het doel.                              |
 
 ::: aside
-![](images%5Cvince_positive2.svg){.nolightbox fig-align="center" width="200"}
+![](images%5Cvince_neutral2.svg){.nolightbox fig-align="center" width="200"}
 :::
 :::
 
@@ -137,5 +137,3 @@ In de onderstaande figuur (@fig-overig-opgave) is in blauw te zien wat de huidig
 #|   group: krw
 overig_opgave
 ```
-
-
