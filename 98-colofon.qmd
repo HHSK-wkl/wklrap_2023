@@ -28,3 +28,9 @@ Foto met waterplanten in Hoofdstuk 1 - Willem Kolvoort
 ### Code
 
 De code en data voor deze rapportage is te vinden op [Github - Waterkwaliteitsrapportage 2023](https://github.com/HHSK-wkl/wklrap_2023).
+
+### Printbare PDF-versie
+
+De waterkwaliteitsrapportage is bedoeld om digitaal te lezen via een internetbrowser. Voor het afdrukken is er een PDF-versie beschikbaar. In deze versie ontbreekt de interactiviteit en een nette opmaak.
+
+[PDF-versie Waterkwaliteitsrapportage 2023](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/wklrap_2023/waterkwaliteitsrapportage_2023_hhsk.pdf)
