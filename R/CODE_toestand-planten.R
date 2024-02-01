@@ -94,7 +94,7 @@ plot_submers <-
   geom_point(colour = blauw) +
   facet_wrap(~gebied, scales = "free_y") +
   scale_y_continuous(expand = expansion(mult = c(0, 0.0)), limits = c(0, 85)) +
-  scale_x_continuous(breaks = scales::breaks_width(2), limits = c(NA, rap_jaar)) +
+  scale_x_continuous(breaks = scales::breaks_width(2, 1), limits = c(NA, rap_jaar)) +
   labs(title = "Wateren met planten onder water",
        subtitle = " ",
        y = "% van alle wateren",
@@ -115,7 +115,7 @@ plot_kroos <-
   geom_point(colour = blauw) +
   facet_wrap(~gebied, scales = "free_y") +
   scale_y_continuous(expand = expansion(mult = c(0, 0.0)), limits = c(0, 50)) +
-  scale_x_continuous(breaks = scales::breaks_width(2), limits = c(NA, rap_jaar)) +
+  scale_x_continuous(breaks = scales::breaks_width(2, 1), limits = c(NA, rap_jaar)) +
   labs(title = "Wateren met veel kroos",
        subtitle = " ",
        y = "% van alle wateren",
