@@ -17,7 +17,7 @@ book:
   # abstract: ""
   search: true
   # author: "Jane Doe"
-  date: "2024-1-23"
+  date: today
   chapters:
     - "index.qmd"
     # -  "test.qmd" 
