@@ -33,7 +33,7 @@ Zwemmen is een belangrijke recreatieve functie van het water. In dit hoofdstuk i
 De voedingsstoffen *fosfaat en stikstof* bepalen hoe snel waterplanten, kroos en algen kunnen groeien. Vaak zorgen teveel voedingsstoffen voor een slechte waterkwaliteit. In dit hoofdstuk is te lezen dat de hoeveelheid fosfaat in het gebied langzaam maar zeker afneemt.
 
 [Hoofdstuk @sec-gbm]\
-*Gewasbeschermingsmiddelen of bestrijdingsmiddelen* worden in de landbouw gebruikt om gewassen te beschermen tegen ziektes en insecten. Deze stoffen kunnen schadelijk zijn voor het onderwaterleven. In is te lezen dat er veel (54) bestrijdingsmiddelen in het water aanwezig zijn en dat 14 van deze stoffen de norm overschrijden. Met name in het glastuinbouwgebied zorgen deze stoffen voor schade aan het onderwaterleven.
+*Gewasbeschermingsmiddelen of bestrijdingsmiddelen* worden in de landbouw gebruikt om gewassen te beschermen tegen ziektes en insecten. Deze stoffen kunnen schadelijk zijn voor het onderwaterleven. In dit hoofdstuk is te lezen dat er veel (54) bestrijdingsmiddelen in het water aanwezig zijn en dat 14 van deze stoffen de norm overschrijden. Met name in het glastuinbouwgebied zorgen deze stoffen voor schade aan het onderwaterleven.
 
 [Hoofdstuk @sec-pfas]\
 *PFAS*-stoffen zijn stoffen die vrijwel niet afbreken en waarvan steeds meer duidelijk wordt dat ze schadelijk zijn voor de gezondheid. In dit hoofdstuk is te lezen dat deze stoffen overal in het gebied worden aangetroffen. Op sommige locaties is de concentratie PFAS erg hoog.
