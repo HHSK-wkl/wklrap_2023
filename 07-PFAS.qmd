@@ -16,7 +16,7 @@ lightbox: auto
 |                                          |                                                                                                                                     |
 |---|------------------------------------------------------------|
 | [{{< fa circle-exclamation >}}]{.oranje} | Overal in het gebied zijn PFAS-stoffen aanwezig.                                                                                    |
-| [{{< fa circle-exclamation >}}]{.oranje} | PFAS overschrijdt de nieuw voorgestelde risicogrenzen in het beste geval 800 keer, in het slechtste geval maar liefst 600.000 keer. |
+| [{{< fa circle-exclamation >}}]{.oranje} | Voor PFAS heeft het RIVM risicogrenzen voorgesteld. Deze risicogrenzen worden overal overschreden, variërend van 800 tot 600.000 keer de risicogrens |
 | [{{< fa circle-exclamation >}}]{.oranje} | PFAS leidt in het Kralings Zwembad tot gezondheidsrisico's voor zwemmers.                                                           |
 
 ::: aside
@@ -38,7 +38,7 @@ PFAS-stoffen hebben ook een aantal vervelende eigenschappen. Ten eerste breken P
     [Risicogrenzen voor PFAS in oppervlaktewater (rivm.nl)](https://www.rivm.nl/bibliotheek/rapporten/2022-0074.pdf)
 
 *Situatie bij HHSK*\
-Recent is gebleken dat de bodem en het water op veel plaatsen is verontreinigd met PFAS-stoffen. Daarom heeft het waterschap onderzoek gedaan om een beeld te krijgen van de situatie in het gebied van Schieland en de Krimpenerwaard.
+Recent is gebleken dat de bodem en het water op veel plaatsen in Nederland is verontreinigd met PFAS-stoffen. Daarom heeft het waterschap onderzoek gedaan om een beeld te krijgen van de situatie in het gebied van Schieland en de Krimpenerwaard.
 
 Het beeld dat uit het onderzoek komt is niet positief:
 
