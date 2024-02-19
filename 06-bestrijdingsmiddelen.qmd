@@ -64,7 +64,7 @@ Het volgende deel beschrijft wat voor effecten de aanwezige bestrijdingsmiddelen
 
 ### Schadelijke effecten {.unnumbered}
 
-Hoe schadelijk zijn de aanwezige bestrijdingsmiddelen voor het waterleven? Het antwoord op die vraag is afhankelijk van de concentratie en de gifigheid van de stof. Met deze infromatie kan de schadelijkheid worden uitgerekend.[^06-bestrijdingsmiddelen-4] Het resultaat van deze berekening is een inschatting van het aandeel van alle soorten planten en dieren dat schade oploopt (msPAF). Er zijn schadelijke effecten op het ecoysteem als meer dan 0,5% van de planten en dieren wordt aangetast.
+Hoe schadelijk zijn de aanwezige bestrijdingsmiddelen voor het waterleven? Het antwoord op die vraag is afhankelijk van de concentratie en de gifigheid van de stof. Met deze informatie kan de schadelijkheid worden uitgerekend.[^06-bestrijdingsmiddelen-4] Het resultaat van deze berekening is een inschatting van het aandeel van alle soorten planten en dieren dat schade oploopt (msPAF). Er zijn schadelijke effecten op het ecoysteem als meer dan 0,5% van de planten en dieren wordt aangetast.
 
 [^06-bestrijdingsmiddelen-4]: Deze informatie is ongeveer voor 75% van de aangetroffen stoffen beschikbaar
 
