@@ -64,7 +64,7 @@ Het volgende deel beschrijft wat voor effecten de aanwezige bestrijdingsmiddelen
 
 ### Schadelijke effecten {.unnumbered}
 
-Hoe schadelijk zijn de aanwezige bestrijdingsmiddelen voor het waterleven? Het antwoord op die vraag is afhankelijk van de concentratie en de gifigheid van de stof. Met deze informatie kan de schadelijkheid worden uitgerekend.[^06-bestrijdingsmiddelen-4] Het resultaat van deze berekening is een inschatting van het aandeel van alle soorten planten en dieren dat schade oploopt (msPAF). Er zijn schadelijke effecten op het ecoysteem als meer dan 0,5% van de planten en dieren wordt aangetast.
+Hoe schadelijk zijn de aanwezige bestrijdingsmiddelen voor het waterleven? Het antwoord op die vraag is afhankelijk van de concentratie en de gifigheid van de stof. Met deze informatie kan de schadelijkheid worden uitgerekend.[^06-bestrijdingsmiddelen-4] Het resultaat van deze berekening is een inschatting van het aandeel van alle soorten planten en dieren dat schade oploopt (msPAF). Er zijn schadelijke effecten op het ecosysteem als meer dan 0,5% van de planten en dieren wordt aangetast.
 
 [^06-bestrijdingsmiddelen-4]: Deze informatie is ongeveer voor 75% van de aangetroffen stoffen beschikbaar
 
@@ -73,7 +73,7 @@ De schade kan worden uitgedrukt in acute effecten en chronische effecten.
 -   *Acute effecten* zijn effecten die snel optreden zoals sterfte en verlamming.
 -   *Chronische effecten* zijn niet direct dodelijk, maar kunnen op lange termijn wel een grote impact hebben; het gaat dan bijvoorbeeld om verminderde groei of het niet voltooien van de levenscyclus waardoor een soort zich niet voortplant.
 
-De acute schadelijkheid van bestrijdingsmiddelen in `r rap_jaar` is in @fig-mspaf-mp per meetlocatie weergegeven. Het is opvallend dat schadelijke effecten vrijwel alleen maar optreden op meetlocaties in het glastuinbouwgebied. De acute effecten lopen op tot 7%. Dat betekent dat 1 op de 14 soorten op deze locatie waarschijnlijk direct dood gaat. De chronische effecten lopen zelfs op tot 15-20% schade. Dat betekent dat meer dan 1 op de 6 soorten planten en dieren last heeft van de aanwezige bestrijdigsmiddelen.
+De acute schadelijkheid van bestrijdingsmiddelen in `r rap_jaar` is in @fig-mspaf-mp per meetlocatie weergegeven. Het is opvallend dat schadelijke effecten vrijwel alleen maar optreden op meetlocaties in het glastuinbouwgebied. De acute effecten lopen op tot 7%. Dat betekent dat 1 op de 14 soorten op deze locatie waarschijnlijk direct dood gaat. De chronische effecten lopen zelfs op tot 15-20% schade. Dat betekent dat meer dan 1 op de 6 soorten planten en dieren last heeft van de aanwezige bestrijdingsmiddelen.
 
 ::: column-body
 ```{r}
