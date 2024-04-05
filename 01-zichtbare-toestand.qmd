@@ -17,7 +17,7 @@ lightbox: auto
 | [{{< fa circle-exclamation >}}]{.oranje} | Blauwalgen komen op veel plekken voor en leiden soms tot overlast.                                   |
 
 ::: aside
-![](images/vince_sad2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een verdrietige vis"}
+![](images/vince_sad2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een verdrietig kijkende vis"}
 :::
 :::
 

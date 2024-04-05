@@ -77,7 +77,7 @@ In de praktijk blijkt de PFAS-concentratie overal ver boven de risicogrenzen uit
 ```{r}
 #| label: fig-grenswaarden
 #| fig-cap: "De PFAS-concentraties uitgedrukt t.o.v. de van de risicogrenzen die zijn voorgesteld door het RIVM.<br>Voor de figuur zijn de overschrijdingsfactoren van de afzonderlijke PFAS-stoffen bij elkaar opgeteld."
-#| fig-alt: "De PFAS-concentraties uitgedrukt t.o.v. de van de risicogrenzen die zijn voorgesteld door het RIVM.
+#| fig-alt: "De PFAS-concentraties uitgedrukt t.o.v. de van de risicogrenzen die zijn voorgesteld door het RIVM."
 #| fig-height: 2
 #| fig-width: 9
 #| fig-align: center
