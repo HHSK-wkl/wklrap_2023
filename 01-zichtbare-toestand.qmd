@@ -17,7 +17,7 @@ lightbox: auto
 | [{{< fa circle-exclamation >}}]{.oranje} | Blauwalgen komen op veel plekken voor en leiden soms tot overlast.                                   |
 
 ::: aside
-![](images/vince_sad2.svg){.nolightbox fig-align="center" width="200"}
+![](images/vince_sad2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een verdrietige vis"}
 :::
 :::
 
@@ -47,6 +47,7 @@ In Schieland is er tussen jaren veel variatie in het aantal locaties met planten
 #| label: fig-submers
 #| out-width: "100%"
 #| fig-cap: "De ontwikkeling van het aantal wateren met planten onder water in de Krimpenerwaard en in Schieland."
+#| fig-alt: "Lijngrafiek met de ontwikkeling van het aantal wateren met planten onder water in de Krimpenerwaard en in Schieland."
 #| lightbox:
 #|   group: toestand
 plot_submers
@@ -60,6 +61,7 @@ Kroos[^01-zichtbare-toestand-2] kan hard groeien als er (te) veel voedingsstoffe
 #| label: fig-kroos
 #| out-width: "100%"
 #| fig-cap: "De ontwikkeling van het aantal wateren met veel kroos in de Krimpenerwaard en in Schieland."
+#| fig-alt: "Lijngrafiek met de ontwikkeling van het aantal wateren met veel kroos in de Krimpenerwaard en in Schieland."
 #| lightbox:
 #|   group: toestand
 plot_kroos
@@ -87,6 +89,7 @@ Het waterschap doet sinds 2020 jaarlijks onderzoek naar de aanwezigheid van Amer
 #| label: fig-kaart-kreeften
 #| out-width: "100%"
 #| fig-cap: "Op welke locaties zijn in 2023 kreeften aangetroffen? (Interactief)"
+#| fig-alt: "Kaart met de locaties waar in 2023 kreeften zijn aangetroffen."
 kaart_kreeften
 ```
 
@@ -110,5 +113,6 @@ In 2023 zijn er op veel plekken blauwalgen aangetroffen (zie @fig-kaart-blauwalg
 #| label: fig-kaart-blauwalgen
 #| out-width: "100%" 
 #| fig-cap: "Op welke locaties waren er veel blauwalgen? De kaart is gemaakt op basis van de grootst gemeten hoeveelheid blauwalgen in 2023. De indeling is gemaakt op basis van de risicobeoordeling voor zwemwater. (interactief)"
+#| fig-alt: "Kaart met de locaties waarin 2023 veel blauwalgen zijn aangetroffen."
 kaart_blauwalgen
 ```

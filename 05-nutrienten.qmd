@@ -13,7 +13,7 @@ lightbox: auto
 | [{{< fa circle-down >}}]{.grijs} | De hoeveelheid stikstof neemt alleen in de boezems een klein beetje af.                                                |
 
 ::: aside
-![](images%5Cvince_positive2.svg){.nolightbox fig-align="center" width="200"}
+![](images%5Cvince_positive2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een voorzichtig blij kijkende vis"}
 :::
 :::
 
@@ -47,6 +47,7 @@ De grote plassen hebben de laagste nutriëntenconcentraties. Dit komt doordat he
 ```{r}
 #| label: fig-nutrienten-plot
 #| fig-cap: !expr 'glue("Gemiddelde nutriëntenconcentraties per type landgebruik in {rap_jaar}.")'
+#| fig-alt: "De gemiddelde nutriëntenconcentratie per type landgebruik."
 #| fig-height: 4
 #| dpi: 150
 #| out.width: "100%"
@@ -76,6 +77,7 @@ De hoeveelheid fosfaat neemt af in gebieden met grasland, stedelijk gebied, de b
 #| fig-height: 4.5
 #| fig-width: 9
 #| fig-cap: "Gemiddelde fosfaatconcentratie per type landgebruik per jaar"
+#| fig-alt: "Gemiddelde fosfaatconcentratie per type landgebruik per jaar"
 #| lightbox:
 #|   group: nutrienten
 fosfor_plot
@@ -90,6 +92,7 @@ fosfor_plot
 #| fig-width: 9
 #| out-width: "100%"
 #| fig-cap: "Gemiddelde stikstofconcentratie per type landgebruik per jaar."
+#| fig-alt: "Gemiddelde stikstofconcentratie per type landgebruik per jaar."
 #| lightbox:
 #|   group: nutrienten
 stikstof_plot

@@ -12,7 +12,7 @@ lightbox: auto
 | [{{< fa circle-down >}}]{.blauw}         | Het aantal normoverschrijdingen van bestrijdingsmiddelen is de laatste 10 jaar verminderd.    |
 
 ::: aside
-![](images%5Cvince_sad2.svg){.nolightbox fig-align="center" width="200"}
+![](images%5Cvince_sad2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een verdrietig kijkende vis"}
 :::
 :::
 
@@ -81,6 +81,7 @@ De acute schadelijkheid van bestrijdingsmiddelen in `r rap_jaar` is in @fig-mspa
 #| out-width: "100%"
 #| fig-height: 5
 #| fig-cap: "Schadelijkheid van de aangetroffen gewasbeschermingsmiddelen per meetlocatie uitgedrukt als msPAF. De oranje stippellijn geeft de grens van 0,5% aan. De schadelijkheid is bepaald door per locatie van iedere stof het effect van de hoogst gemeten concentratie te bepalen. "
+#| fig-alt: "Schadelijkheid van de aangetroffen gewasbeschermingsmiddelen per meetlocatie uitgedrukt als msPAF."
 #| lightbox:
 #|   group: gbm
 plot_mspaf_mp
@@ -96,6 +97,7 @@ Neemt de schade door gewasbeschermingsmiddelen toe of af? In @fig-mspaf-tijd is 
 #| label: fig-mspaf-tijd-chronisch
 #| out-width: "100%"
 #| fig-cap: "Welk aandeel van de soorten kan chronische schade ondervinden van de aanwezige gewasbeschermingsmiddelen?"
+#| fig-alt: "De chronische toxiciteit per monster in de laatste 10 jaar."
 #| lightbox:
 #|   group: gbm
 plot_mspaf_tijd_chronisch
@@ -107,6 +109,7 @@ plot_mspaf_tijd_chronisch
 #| label: fig-mspaf-tijd
 #| out-width: "100%"
 #| fig-cap: "Welk aandeel van de soorten kan acute schade ondervinden van de aanwezige gewasbeschermingsmiddelen?<br>Elk punt is de giftigheid van een afzonderlijk monster. Monsters waar minder dan 1 op de 100.000 soorten worden aangetast zijn niet getoond. Onder het jaartal is weergegeven hoeveel monsters er in dat jaar zijn genomen.<br>De horizontale lijnen geven de grens aan tussen zeer hoge toxiciteit en hoge toxiciteit (1 op de 10) en de grens tussen hoge toxiciteit en matige toxiciteit. (1 op de 200)."
+#| fig-alt: "De acute toxiciteit per monster in de laatste 10 jaar."
 #| lightbox:
 #|   group: gbm
 plot_mspaf_tijd
@@ -123,6 +126,7 @@ Op elke onderzochte locatie kan elk afzonderlijk bestrijdingsmiddel worden getoe
 #| fig-height: 5
 #| out-width: "100%"
 #| fig-cap: "Het percentage van alle toetsingen waar een overschrijding wordt geconstateerd per type landgebruik."
+#| fig-alt: "Het percentage van alle toetsingen waar een overschrijding wordt geconstateerd per type landgebruik."
 #| lightbox:
 #|   group: gbm
 plot_overschr_freq

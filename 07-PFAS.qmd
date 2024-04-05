@@ -20,7 +20,7 @@ lightbox: auto
 | [{{< fa circle-exclamation >}}]{.oranje} | PFAS leidt in het Kralings Zwembad tot gezondheidsrisico's voor zwemmers.                                                           |
 
 ::: aside
-![](images%5Cvince_sad2.svg){.nolightbox fig-align="center" width="200"}
+![](images%5Cvince_sad2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een verdrietig kijkende vis"}
 :::
 :::
 
@@ -77,6 +77,7 @@ In de praktijk blijkt de PFAS-concentratie overal ver boven de risicogrenzen uit
 ```{r}
 #| label: fig-grenswaarden
 #| fig-cap: "De PFAS-concentraties uitgedrukt t.o.v. de van de risicogrenzen die zijn voorgesteld door het RIVM.<br>Voor de figuur zijn de overschrijdingsfactoren van de afzonderlijke PFAS-stoffen bij elkaar opgeteld."
+#| fig-alt: "De PFAS-concentraties uitgedrukt t.o.v. de van de risicogrenzen die zijn voorgesteld door het RIVM.
 #| fig-height: 2
 #| fig-width: 9
 #| fig-align: center
@@ -101,6 +102,7 @@ Uit de metingen blijkt dat zwemmers in het Kralings Zwembad veel PFAS binnen kun
 ```{r}
 #| label: fig-zwem-pfas
 #| fig-cap: "Welk percentage van de toelaatbare dagelijkse inname voor PFAS kan een kind binnenkrijgen?"
+#| fig-alt: "Figuur met het percentage van de toelaatbare dagelijkse inname voor PFAS dat een kind kan binnenkrijgen op zwemlocaties."
 #| lightbox:
 #|   group: pfas
 plot_zwem_pfas

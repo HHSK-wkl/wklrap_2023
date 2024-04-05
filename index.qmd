@@ -6,7 +6,7 @@ lightbox: false
 # abstract: "TESt"
 ---
 
-![](images/vier_watergangen_jdr.jpg)
+![](images/vier_watergangen_jdr.jpg){fig-alt="Vier typen gebieden met een watergang"}
 
 # Inleiding {.unnumbered}
 
@@ -50,4 +50,4 @@ Vragen over deze rapportage kunt u sturen naar rapportage_waterkwaliteit\@hhsk.n
 
 <br>
 
-![*Tekeningen: Jasper de Ruiter, Tringa paintings*](images/zomer_veenweide_full_colour_800px.jpg)
+![*Tekeningen: Jasper de Ruiter, Tringa paintings*](images/zomer_veenweide_full_colour_800px.jpg){fig-alt="Een watergang in agrarisch gebied"}

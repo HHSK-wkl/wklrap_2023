@@ -19,7 +19,7 @@ lightbox: auto
 | [{{< fa circle-exclamation >}}]{.grijs}  | Het meeste overige water bevindt zich op de helft van het doel.                              |
 
 ::: aside
-![](images%5Cvince_neutral2.svg){.nolightbox fig-align="center" width="200"}
+![](images%5Cvince_neutral2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een neutraal kijkende vis"}
 :::
 :::
 
@@ -55,6 +55,7 @@ kaart_waterlichamen
 #| fig-width: 7.5
 #| out-width: "100%"
 #| fig-cap: "De hoogte van de doelstelling ten opzichte van de standaard-doelstelling. Het blauwe gedeelte toont de hoogte van het doel, het grijze gedeelte toont hoeveel het doel is aangepast. Deze doelstellingen gelden voor de periode 2022-2027."
+#| fig-alt: "Figuur met de aanpassing van het doel voor elk waterlichaam en elk kwaliteitselement"
 #| lightbox:
 #|   group: krw
 krw_doelen
@@ -84,6 +85,7 @@ Er is te zien dat de boezems en de plassen grotendeels voldoen aan de doelstelli
 #| fig-width: 7.5
 #| out-width: "100%"
 #| fig-cap: "De toestand van de waterlichamen ten opzichte van de doelstelling. Het blauwe gedeelte toont de huidige toestand ten opzichte van het doel, het oranje gedeelte toont het gat tussen de huidige toestand en het doel."
+#| fig-alt: "Figuur met de KRW-opgave voor elk waterlichaam en elk kwaliteitselement."
 #| lightbox:
 #|   group: krw
 krw_opgave
@@ -113,6 +115,7 @@ kaart_overig
 ```{r}
 #| label: fig-overig-doelen
 #| fig-cap: "De hoogte van de doelstelling ten opzichte van de standaard-doelstelling voor overig water. Het blauwe gedeelte toont de hoogte van het doel, het grijze gedeelte toont hoeveel het doel is aangepast. Deze doelstellingen gelden voor de periode 2022-2027."
+#| fig-alt: "De aanpassing van de doelen voor het overige water."
 #| lightbox:
 #|   group: krw
 overig_doelen
@@ -133,6 +136,7 @@ In de onderstaande figuur (@fig-overig-opgave) is in blauw te zien wat de huidig
 #| label: fig-overig-opgave
 #| out-width: "100%"
 #| fig-cap: "De toestand van het overig water ten opzichte van de doelstelling. Het blauwe gedeelte toont de huidige toestand ten opzichte van het doel, het oranje gedeelte toont het gat tussen de huidige toestand en het doel."
+#| fig-alt: "De toestand van het overig water ten opzichte van de doelstelling."
 #| lightbox:
 #|   group: krw
 overig_opgave

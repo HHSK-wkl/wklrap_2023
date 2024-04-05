@@ -21,7 +21,7 @@ description: "Dit gaat over zwemwater"
 | [{{< fa circle-exclamation >}}]{.oranje} | Het Kralings Zwembad heeft een negatief zwemadvies vanwege een hoge concentratie PFAS.                                     |
 
 ::: aside
-![](images%5Cvince_neutral2.svg){.nolightbox fig-align="center" width="200"}
+![](images%5Cvince_neutral2.svg){.nolightbox fig-align="center" width="200" fig-alt="Pictogram van een neutraal kijkende vis"}
 :::
 :::
 
@@ -71,6 +71,7 @@ Als er veel blauwalgen op een zwemlocatie zijn, wordt daarvoor gewaarschuwd. In 
 ```{r}
 #| label: fig-grafiek-blauwalgen
 #| fig-cap: "Aantal dagen per zwemlocatie met tenminste een waarschuwing voor blauwalg."
+#| fig-alt: "Aantal dagen per zwemlocatie met tenminste een waarschuwing voor blauwalg."
 #| out-width: "100%"
 #| fig-height: 8
 blauwalgenplot
