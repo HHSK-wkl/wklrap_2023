@@ -31,7 +31,7 @@ description: "Dit gaat over zwemwater"
 
 Zwemmen is een belangrijke recreatieve functie van oppervlaktewater. In het gebied van het waterschap zijn acht plekken door de provincie aangewezen als officiële locatie om te zwemmen. Om veilig te kunnen zwemmen is het van belang dat de kwaliteit van het zwemwater goed is. De kwaliteit van het zwemwater wordt onderzocht door het waterschap.
 
-Tijdens het zwemseizoen (mei - september) wordt elke zwemlocatie om de twee weken onderzocht. Bij dit onderzoek wordt gecontroleerd op de aanwezigheid van fecale bacteriën[^04-zwemwater-1] en blauwalgen. Fecale bacteriën zijn potentiële ziekteverwekkers, en veel soorten blauwalgen zijn giftig. Als er veel bacteriën of blauwalgen in het zwemwater aanwezig zijn dan wordt hiervoor gewaarschuwd met een bord op de zwemlocatie en op [www.zwemwater.nl](www.zwemwater.nl).
+Tijdens het zwemseizoen (mei - september) wordt elke zwemlocatie om de twee weken onderzocht. Bij dit onderzoek wordt gecontroleerd op de aanwezigheid van fecale bacteriën[^04-zwemwater-1] en blauwalgen. Fecale bacteriën zijn potentiële ziekteverwekkers, en veel soorten blauwalgen zijn giftig. Als er veel bacteriën of blauwalgen in het zwemwater aanwezig zijn dan wordt hiervoor gewaarschuwd met een bord op de zwemlocatie en op [www.zwemwater.nl](https://www.zwemwater.nl){target="_blank"}.
 
 [^04-zwemwater-1]: Dit zijn bacteriën die afkomstig zijn uit de uitwerpselen van mens en dier.
 
@@ -84,7 +84,7 @@ blauwalgenplot
 
 Het gebeurt af en toe dat mensen melding maken van jeukklachten na het zwemmen. Jeukklachten worden meestal veroorzaakt door zwemmersjeuk[^04-zwemwater-3]. Als er meerdere meldingen zijn van jeukklachten dan geeft de provincie een waarschuwing af. Het waterschap doet dan aanvullend onderzoek naar zwemmersjeuk, maar zwemmersjeuk is in de praktijk vaak niet aan te tonen.
 
-[^04-zwemwater-3]: Zwemmersjeuk wordt veroorzaakt door larven van *Trichobilharzia* die normaal in slakken en watervogels leven. Zwemmersjeuk is erg hinderlijk maar niet gevaarlijk. Zie voor meer informatie [Zwemmersjeuk \| Thuisarts.nl](https://www.thuisarts.nl/zwemmersjeuk/ik-heb-zwemmersjeuk)
+[^04-zwemwater-3]: Zwemmersjeuk wordt veroorzaakt door larven van *Trichobilharzia* die normaal in slakken en watervogels leven. Zwemmersjeuk is erg hinderlijk maar niet gevaarlijk. Zie voor meer informatie [Zwemmersjeuk \| Thuisarts.nl](https://www.thuisarts.nl/zwemmersjeuk/ik-heb-zwemmersjeuk){target="_blank"}
 
 Op de onderstaande kaart is te zien waar in `r rap_jaar` gewaarschuwd is vanwege jeukklachten.
 
